@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en" data-lang="en" data-en-title="Design system · La Tienda Singer · María Alejandra Quiroga" data-es-title="Sistema visual · La Tienda Singer · María Alejandra Quiroga">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Design system · La Tienda Singer · María Alejandra Quiroga</title>
+<meta name="description" content="The visual identity system designed for La Tienda Singer: palette, type pairing, grid, components, templates and process.">
+<meta name="theme-color" content="#F6F4EF">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<script>try{var l=new URLSearchParams(location.search).get('lang')||localStorage.getItem('lang');if(l==='es')document.documentElement.setAttribute('data-lang','es')}catch(e){}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT@0,9..144,300..600,0..100;1,9..144,300..600,0..100&family=IBM+Plex+Mono:wght@400;500&family=Instrument+Sans:wght@400;500;600&family=Poppins:wght@400;600;700;800&family=Playfair+Display:ital,wght@1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+<a class="skip" href="#main"><span lang="en">Skip to content</span><span lang="es">Saltar al contenido</span></a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="./"><b>María Alejandra Quiroga</b><span>Creative Project Manager</span></a>
+    <nav class="nav" aria-label="Main" data-es-aria-label="Principal">
+      <ul>
+        <li><a href="case-singer.html"><span lang="en">Case study</span><span lang="es">Caso</span></a></li>
+        <li><a href="design-system.html" aria-current="page"><span lang="en">Design system</span><span lang="es">Sistema visual</span></a></li>
+        <li><a href="how-i-work.html"><span lang="en">How I work</span><span lang="es">Cómo trabajo</span></a></li>
+        <li><a href="about.html"><span lang="en">About</span><span lang="es">Sobre mí</span></a></li>
+      </ul>
+    </nav>
+    <div class="lang" role="group" aria-label="Language / Idioma">
+      <button type="button" data-set-lang="en" aria-pressed="true">EN</button>
+      <button type="button" data-set-lang="es" aria-pressed="false">ES</button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+<section class="case-hero wrap">
+  <span class="label"><span lang="en">Design system · La Tienda Singer</span><span lang="es">Sistema visual · La Tienda Singer</span></span>
+  <h1 class="display"><span lang="en">Red, cream and <em>one italic word</em></span><span lang="es">Rojo, crema y <em>una palabra en itálica</em></span></h1>
+  <p class="lede" style="max-width:52ch"><span lang="en">The visual system behind every produced piece: a palette with one job per color, a two-font pairing, a fixed canvas grid, a set of components and six templates that a small team can reuse without a designer in the room.</span><span lang="es">El sistema visual detrás de cada pieza producida: una paleta donde cada color tiene una función, dos tipografías, una retícula fija, un conjunto de componentes y seis plantillas que un equipo pequeño puede reutilizar sin un diseñador al lado.</span></p>
+  <p class="muted" style="margin-top:16px;font-size:.9375rem"><span lang="en">Values are taken directly from the production files (carousel and infographic sources).</span><span lang="es">Los valores salen directamente de los archivos de producción (fuentes de los carruseles y la infografía).</span></p>
+</section>
+
+<!-- Palette -->
+<section class="section wrap" aria-labelledby="pal-t">
+  <div class="section__head">
+    <span class="label">01 · <span lang="en">Color</span><span lang="es">Color</span></span>
+    <h2 class="h2" id="pal-t"><span lang="en">One job <em>per color</em></span><span lang="es">Una función <em>por color</em></span></h2>
+    <p class="lede"><span lang="en">Red stops the scroll, cream makes long text easy on the eyes, and blue is kept for navigation and numbers. All text pairings pass WCAG AA.</span><span lang="es">El rojo detiene el scroll, el crema hace que leer sea descansado y el azul se reserva para navegación y números. Todas las combinaciones de texto cumplen WCAG AA.</span></p>
+  </div>
+  <h3 class="mono muted" style="margin-bottom:14px"><span lang="en">Production palette · social and print</span><span lang="es">Paleta de producción · redes e impreso</span></h3>
+  <div class="swatches swatches--7">
+    <div class="swatch"><div class="swatch__chip" style="background:#D7192A;color:#fff">Aa 5.2:1</div><div class="swatch__meta"><b>Singer Red</b><code>#D7192A</code><span><span lang="en">Covers, emphasis, CTAs</span><span lang="es">Portadas, énfasis, CTA</span></span></div></div>
+    <div class="swatch"><div class="swatch__chip" style="background:#A50F1D;color:#fff">Aa 7.8:1</div><div class="swatch__meta"><b>Red Dark</b><code>#A50F1D</code><span><span lang="en">Pressed states, depth</span><span lang="es">Estados, profundidad</span></span></div></div>
+    <div class="swatch"><div class="swatch__chip" style="background:#1E3A8A;color:#fff">Aa 10.4:1</div><div class="swatch__meta"><b>Blue</b><code>#1E3A8A</code><span><span lang="en">Kickers, step numbers, counters</span><span lang="es">Antetítulos, números de paso</span></span></div></div>
+    <div class="swatch"><div class="swatch__chip" style="background:#161616;color:#fff">Aa 18.1:1</div><div class="swatch__meta"><b>Black</b><code>#161616</code><span><span lang="en">Contact footers, CTA slides</span><span lang="es">Pies de contacto, cierres</span></span></div></div>
+    <div class="swatch"><div class="swatch__chip" style="background:#FFF7F3;color:#1F1F1F;box-shadow:inset 0 0 0 1px #eee">Aa 15.6:1</div><div class="swatch__meta"><b>Cream</b><code>#FFF7F3</code><span><span lang="en">Reading background</span><span lang="es">Fondo de lectura</span></span></div></div>
+    <div class="swatch"><div class="swatch__chip" style="background:#1F1F1F;color:#FFF7F3">Aa</div><div class="swatch__meta"><b>Ink</b><code>#1F1F1F</code><span><span lang="en">Headlines and body</span><span lang="es">Titulares y texto</span></span></div></div>
+    <div class="swatch"><div class="swatch__chip" style="background:#5B5B5B;color:#fff">Aa 6.4:1</div><div class="swatch__meta"><b>Muted</b><code>#5B5B5B</code><span><span lang="en">Secondary text, footers</span><span lang="es">Texto secundario, pies</span></span></div></div>
+  </div>
+
+  <h3 class="mono muted" style="margin:40px 0 14px"><span lang="en">Presentation palette · strategy deck</span><span lang="es">Paleta de presentación · documento de estrategia</span></h3>
+  <div class="swatches swatches--6">
+    <div class="swatch"><div class="swatch__chip" style="background:#C8243B;color:#fff">Aa 5.6:1</div><div class="swatch__meta"><b>Crimson</b><code>#C8243B</code></div></div>
+    <div class="swatch"><div class="swatch__chip" style="background:#8E1428;color:#fff">Aa</div><div class="swatch__meta"><b>Wine</b><code>#8E1428</code></div></div>
+    <div class="swatch"><div class="swatch__chip" style="background:#2B1418;color:#fff">Aa</div><div class="swatch__meta"><b>Espresso</b><code>#2B1418</code></div></div>
+    <div class="swatch"><div class="swatch__chip" style="background:#6E5357;color:#fff">Aa</div><div class="swatch__meta"><b>Mauve</b><code>#6E5357</code></div></div>
+    <div class="swatch"><div class="swatch__chip" style="background:#F6DADF;color:#2B1418">Aa</div><div class="swatch__meta"><b>Blush</b><code>#F6DADF</code></div></div>
+    <div class="swatch"><div class="swatch__chip" style="background:#FBF3F1;color:#2B1418;box-shadow:inset 0 0 0 1px #eee">Aa</div><div class="swatch__meta"><b>Shell</b><code>#FBF3F1</code></div></div>
+  </div>
+  <p class="muted" style="margin-top:14px;max-width:70ch;font-size:.9375rem"><span lang="en">The strategy deck uses a deeper, warmer red family (crimson, wine, espresso). The production palette brightens the red, adds blue for navigation and numbers, and moves the background to cream.</span><span lang="es">El documento de estrategia usa una familia de rojos más profunda y cálida (carmesí, vino, espresso). La paleta de producción aviva el rojo, suma el azul para navegación y números, y lleva el fondo a crema.</span></p>
+</section>
+
+<!-- Type -->
+<section class="section wrap" aria-labelledby="type-t">
+  <div class="section__head">
+    <span class="label">02 · <span lang="en">Typography</span><span lang="es">Tipografía</span></span>
+    <h2 class="h2" id="type-t"><span lang="en">Poppins informs, <em>Playfair feels</em></span><span lang="es">Poppins informa, <em>Playfair emociona</em></span></h2>
+    <p class="lede"><span lang="en">A geometric sans for everything that must be read fast, and a single italic serif word or short phrase per headline for the emotional beat. Only one per headline, so they never compete.</span><span lang="es">Una sans geométrica para todo lo que se debe leer rápido, y una sola palabra o frase corta en serif itálica por titular para el golpe emocional. Solo una por titular, para que nunca compitan.</span></p>
+  </div>
+  <div class="specimen">
+    <div class="specimen__card">
+      <p class="sg-poppins" style="font-weight:700;font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:#1E3A8A;margin:0 0 14px">Paso 4 · Posventa</p>
+      <p class="specimen__head" style="margin:0">Seguimos <span class="sg-playfair">contigo</span></p>
+      <p class="sg-poppins" style="font-size:clamp(1rem,2.2vw,1.3rem);line-height:1.45;margin:18px 0 0;max-width:30ch">Después de la compra te acompañamos con <b style="color:#D7192A">servicio posventa</b> y <b style="color:#D7192A">repuestos originales</b>.</p>
+      <hr class="stitch" style="margin:28px 0 16px">
+      <div style="display:flex;gap:28px;flex-wrap:wrap">
+        <div><p class="mono" style="margin:0 0 4px;color:#5B5B5B">Poppins</p><p class="sg-poppins" style="margin:0;font-size:1.6rem;font-weight:800">Aa Bb 123</p><p class="mono" style="margin:4px 0 0;color:#5B5B5B">400 · 500 · 600 · 700 · 800</p></div>
+        <div><p class="mono" style="margin:0 0 4px;color:#5B5B5B">Playfair Display</p><p class="sg-playfair" style="margin:0;font-size:1.6rem">Aa Bb 123</p><p class="mono" style="margin:4px 0 0;color:#5B5B5B">700 italic</p></div>
+      </div>
+    </div>
+    <div class="table-scroll">
+      <table class="scale-table">
+        <caption class="sr-only">Type scale on the 1080 px carousel canvas</caption>
+        <thead><tr><th scope="col"><span lang="en">Role</span><span lang="es">Rol</span></th><th scope="col"><span lang="en">Font</span><span lang="es">Fuente</span></th><th scope="col"><span lang="en">Size / leading</span><span lang="es">Tamaño / interlínea</span></th></tr></thead>
+        <tbody>
+          <tr><td><span lang="en">Cover title</span><span lang="es">Título portada</span></td><td>Poppins 800</td><td>116 px / 1.0, −3%</td></tr>
+          <tr><td><span lang="en">Cover accent</span><span lang="es">Acento portada</span></td><td>Playfair 700 it.</td><td>124 px</td></tr>
+          <tr><td><span lang="en">Slide title</span><span lang="es">Título diapositiva</span></td><td>Poppins 800</td><td>80 px / 1.03, −2%</td></tr>
+          <tr><td><span lang="en">Slide accent</span><span lang="es">Acento</span></td><td>Playfair 700 it.</td><td>88 px</td></tr>
+          <tr><td><span lang="en">Body</span><span lang="es">Texto</span></td><td>Poppins 400</td><td>38 px / 1.45</td></tr>
+          <tr><td><span lang="en">Kicker</span><span lang="es">Antetítulo</span></td><td>Poppins 700</td><td>26 px, +14%, <span lang="en">caps</span><span lang="es">mayúsculas</span></td></tr>
+          <tr><td><span lang="en">Footer</span><span lang="es">Pie</span></td><td>Poppins 600</td><td>26 px</td></tr>
+        </tbody>
+      </table>
+      <p class="muted" style="font-size:.875rem;margin-top:12px"><span lang="en">Body is 38 px on a 1080 px slide, which is about 14 px once the slide fills a phone screen.</span><span lang="es">El texto mide 38 px en una diapositiva de 1080 px: unos 14 px cuando la diapositiva ocupa la pantalla del celular.</span></p>
+    </div>
+  </div>
+</section>
+
+<!-- Grid -->
+<section class="section wrap" aria-labelledby="grid-t">
+  <div class="section__head">
+    <span class="label">03 · <span lang="en">Grid</span><span lang="es">Retícula</span></span>
+    <h2 class="h2" id="grid-t"><span lang="en">A fixed canvas, <em>so templates stay templates</em></span><span lang="es">Un lienzo fijo <em>para que las plantillas sigan siéndolo</em></span></h2>
+  </div>
+  <div class="grid-demo">
+    <figure class="overlay">
+      <img src="assets/img/singer/carousel-1-2-sm.webp" width="540" height="675" loading="lazy" decoding="async" class="shot" alt="Feature slide 'Te la entregamos' with the grid drawn on top: blue bands mark the side, top and bottom margins, and a blue line marks the stitch line inset." data-es-alt="Diapositiva 'Te la entregamos' con la retícula superpuesta: bandas azules marcan los márgenes laterales, superior e inferior, y una línea azul marca la costura.">
+      <div class="overlay__guides" aria-hidden="true">
+        <i class="m m--l"></i><i class="m m--r"></i><i class="m m--t"></i><i class="m m--b"></i><i class="s"></i>
+        <span class="tag" style="left:1%;top:45%">90</span><span class="tag" style="right:1%;top:45%">90</span><span class="tag" style="left:46%;top:1.2%">110</span><span class="tag" style="left:46%;bottom:2%">130</span>
+      </div>
+      <figcaption><span lang="en">Carousel canvas, 1080 × 1350 px (4:5). Values in px.</span><span lang="es">Lienzo de carrusel, 1080 × 1350 px (4:5). Valores en px.</span></figcaption>
+    </figure>
+    <div>
+      <ul class="specs">
+        <li><span lang="en">Canvas</span><span lang="es">Lienzo</span><code>1080 × 1350</code></li>
+        <li><span lang="en">Side margins</span><span lang="es">Márgenes laterales</span><code>90</code></li>
+        <li><span lang="en">Top / bottom safe area</span><span lang="es">Zona segura arriba / abajo</span><code>110 / 130</code></li>
+        <li><span lang="en">Stitch line inset</span><span lang="es">Línea de costura</span><code>50</code></li>
+        <li><span lang="en">Footer baseline</span><span lang="es">Línea del pie</span><code>56 <span lang="en">from bottom</span><span lang="es">desde abajo</span></code></li>
+        <li><span lang="en">Text measure</span><span lang="es">Ancho de texto</span><code>max 880</code></li>
+        <li><span lang="en">Infographic unit</span><span lang="es">Unidad de la infografía</span><code>1u = W / 100</code></li>
+      </ul>
+      <p class="muted" style="margin-top:16px;max-width:52ch"><span lang="en">Content is centered vertically, so a slide with two lines and a slide with six still share the same top and bottom edges. The infographic uses one unit for every size, so it can be re-flowed for print or Story without redrawing.</span><span lang="es">El contenido se centra en vertical: una diapositiva con dos líneas y otra con seis comparten los mismos bordes. La infografía usa una sola unidad para todas las medidas, así se reacomoda para impreso o historia sin redibujar.</span></p>
+    </div>
+  </div>
+</section>
+
+<!-- Components -->
+<section class="section wrap" aria-labelledby="comp-t">
+  <div class="section__head">
+    <span class="label">04 · <span lang="en">Components</span><span lang="es">Componentes</span></span>
+    <h2 class="h2" id="comp-t"><span lang="en">The parts, <em>rebuilt live in code</em></span><span lang="es">Las piezas, <em>reconstruidas en código</em></span></h2>
+    <p class="lede"><span lang="en">Shown at roughly a third of their real size.</span><span lang="es">Se muestran a un tercio de su tamaño real, aproximadamente.</span></p>
+  </div>
+  <div class="components">
+    <div class="comp"><div class="comp__stage" style="gap:12px"><span class="s-kicker">Paso 1 · Entrega</span><span class="s-pill">Nuestro servicio</span></div><div class="comp__meta"><b><span lang="en">Kicker &amp; pill</span><span lang="es">Antetítulo y etiqueta</span></b><span><span lang="en">Blue kicker inside, white pill on red covers.</span><span lang="es">Antetítulo azul en el interior, etiqueta blanca en portadas rojas.</span></span></div></div>
+    <div class="comp"><div class="comp__stage"><div class="s-stitch"></div></div><div class="comp__meta"><b><span lang="en">Stitch line</span><span lang="es">Línea de costura</span></b><span><span lang="en">Dashed red at 35%. The brand's one sewing motif.</span><span lang="es">Punteado rojo al 35 %. El único motivo de costura de la marca.</span></span></div></div>
+    <div class="comp"><div class="comp__stage"><div class="s-badge"><i>3</i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10L12 5 2 10l10 5 10-5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/><path d="M22 10v6"/></svg></div></div><div class="comp__meta"><b><span lang="en">Numbered icon badge</span><span lang="es">Ícono numerado</span></b><span><span lang="en">Red disc, blush halo, blue step number.</span><span lang="es">Disco rojo, halo rosado, número de paso azul.</span></span></div></div>
+    <div class="comp"><div class="comp__stage"><div class="s-progress"><span class="done"><em>1</em>Entrega</span><i></i><span class="done"><em>2</em>Montaje</span><i></i><span class="on"><em>3</em>Clase</span><i></i><span><em>4</em>Posventa</span></div></div><div class="comp__meta"><b><span lang="en">Step tracker</span><span lang="es">Indicador de pasos</span></b><span><span lang="en">Done, current and next states, joined by stitches.</span><span lang="es">Estados hecho, actual y siguiente, unidos por puntadas.</span></span></div></div>
+    <div class="comp"><div class="comp__stage"><div class="s-note">¿Empezamos? Escríbenos por WhatsApp: <b>318 734 7951</b></div></div><div class="comp__meta"><b><span lang="en">Call-out note</span><span lang="es">Recuadro de llamado</span></b><span><span lang="en">The only place a phone number lives on a slide.</span><span lang="es">El único lugar donde va un número en una diapositiva.</span></span></div></div>
+    <div class="comp"><div class="comp__stage"><div class="s-foot"><span><b>La Tienda Singer</b> · @latiendasinger</span><span>2/5</span></div></div><div class="comp__meta"><b><span lang="en">Brand footer</span><span lang="es">Pie de marca</span></b><span><span lang="en">Handle and counter on every slide.</span><span lang="es">Cuenta y contador en cada diapositiva.</span></span></div></div>
+  </div>
+  <p class="muted" style="margin-top:14px;font-size:.9375rem"><span lang="en">The compare card and the product tiles appear in the templates below.</span><span lang="es">La tarjeta comparativa y los mosaicos de producto aparecen en las plantillas de abajo.</span></p>
+</section>
+
+<!-- Templates -->
+<section class="section wrap" aria-labelledby="tpl-t">
+  <div class="section__head">
+    <span class="label">05 · <span lang="en">Templates</span><span lang="es">Plantillas</span></span>
+    <h2 class="h2" id="tpl-t"><span lang="en">Six slide types <em>cover every post</em></span><span lang="es">Seis tipos de diapositiva <em>cubren cualquier post</em></span></h2>
+    <p class="lede"><span lang="en">The three carousels are built from the same six templates. A new post means new copy, not a new design.</span><span lang="es">Los tres carruseles salen de las mismas seis plantillas. Un post nuevo significa texto nuevo, no un diseño nuevo.</span></p>
+  </div>
+  <div class="templates">
+    <figure><img src="assets/img/singer/carousel-1-1-sm.webp" width="540" height="675" loading="lazy" decoding="async" class="shot" alt="Cover template: red background with rings, pill, two-line headline and swipe button." data-es-alt="Plantilla portada: fondo rojo con anillos, etiqueta, titular en dos líneas y botón de deslizar."><figcaption>01 · <span lang="en">Cover</span><span lang="es">Portada</span></figcaption></figure>
+    <figure><img src="assets/img/singer/carousel-1-3-sm.webp" width="540" height="675" loading="lazy" decoding="async" class="shot" alt="Feature template: numbered icon badge, kicker, headline, body and step tracker." data-es-alt="Plantilla destacado: ícono numerado, antetítulo, titular, texto e indicador de pasos."><figcaption>02 · <span lang="en">Feature</span><span lang="es">Destacado</span></figcaption></figure>
+    <figure><img src="assets/img/singer/carousel-2-2-sm.webp" width="540" height="675" loading="lazy" decoding="async" class="shot" alt="Cards template: headline and two horizontal cards with icon, title and description." data-es-alt="Plantilla tarjetas: titular y dos tarjetas horizontales con ícono, título y descripción."><figcaption>03 · <span lang="en">Cards</span><span lang="es">Tarjetas</span></figcaption></figure>
+    <figure><img src="assets/img/singer/carousel-3-3-sm.webp" width="540" height="675" loading="lazy" decoding="async" class="shot" alt="Grid template: headline and a two-by-two grid of product tiles." data-es-alt="Plantilla cuadrícula: titular y mosaico de dos por dos con productos."><figcaption>04 · <span lang="en">Grid</span><span lang="es">Cuadrícula</span></figcaption></figure>
+    <figure><img src="assets/img/singer/carousel-2-4-sm.webp" width="540" height="675" loading="lazy" decoding="async" class="shot" alt="Compare template: grey 'other stores' column against a red 'La Tienda Singer' column." data-es-alt="Plantilla comparativa: columna gris de 'otras tiendas' frente a columna roja de 'La Tienda Singer'."><figcaption>05 · <span lang="en">Compare</span><span lang="es">Comparativa</span></figcaption></figure>
+    <figure><img src="assets/img/singer/carousel-3-5-sm.webp" width="540" height="675" loading="lazy" decoding="async" class="shot" alt="CTA template: black background, headline, WhatsApp numbers, address and handle." data-es-alt="Plantilla cierre: fondo negro, titular, números de WhatsApp, dirección y cuenta."><figcaption>06 · <span lang="en">Call to action</span><span lang="es">Cierre</span></figcaption></figure>
+  </div>
+</section>
+
+<!-- Process -->
+<section class="section wrap" aria-labelledby="proc-t">
+  <div class="section__head">
+    <span class="label">06 · <span lang="en">Process</span><span lang="es">Proceso</span></span>
+    <h2 class="h2" id="proc-t"><span lang="en">From grey boxes <em>to the final screen</em></span><span lang="es">De cajas grises <em>a la pantalla final</em></span></h2>
+    <p class="lede"><span lang="en">The quiz went through a navigation map and low-fidelity wireframes before any color was added.</span><span lang="es">El test pasó por un mapa de navegación y wireframes de baja fidelidad antes de tener color.</span></p>
+  </div>
+  <figure style="margin-bottom:40px">
+    <img src="assets/img/singer/quiz-navmap.webp" width="1200" height="640" loading="lazy" decoding="async" class="shot" alt="Navigation map: social media and in-store QR lead to Home, then Quiz (6 questions), Result (1 of 5 profiles) and WhatsApp quote, colored by AIDA stage, with a dashed loop to repeat the quiz and side paths to Club Singer and 'Behind this medium'." data-es-alt="Mapa de navegación: redes sociales y QR del local llevan a Inicio, Test (6 preguntas), Resultado (1 de 5 perfiles) y Cotizar por WhatsApp, coloreados por etapa AIDA, con un bucle punteado para repetir el test y rutas laterales a Club Singer y 'Detrás de este medio'.">
+    <figcaption>01 · <span lang="en">Navigation map, each step colored by its AIDA stage</span><span lang="es">Mapa de navegación, cada paso con el color de su etapa AIDA</span></figcaption>
+  </figure>
+  <div class="process">
+    <figure class="process__step">
+      <img src="assets/img/singer/quiz-wireframes.webp" width="1200" height="640" loading="lazy" decoding="async" class="shot" alt="Five grayscale mobile wireframes: home, question, result, Club Singer and behind this medium." data-es-alt="Cinco wireframes móviles en escala de grises: inicio, pregunta, resultado, Club Singer y detrás de este medio.">
+      <figcaption>02 · <span lang="en">Low-fidelity wireframes, mobile view</span><span lang="es">Wireframes de baja fidelidad, vista móvil</span></figcaption>
+    </figure>
+    <div class="process__arrow" aria-hidden="true">→</div>
+    <div class="strip strip--phone" tabindex="0" role="region" aria-label="Final quiz screens" data-es-aria-label="Pantallas finales del test" style="grid-auto-columns:min(48%,190px)">
+      <figure><img src="assets/img/singer/quiz-pregunta-sm.webp" width="375" height="812" loading="lazy" decoding="async" class="shot" alt="Final question screen with progress bar and large options." data-es-alt="Pantalla final de pregunta con barra de progreso y opciones grandes."><figcaption>03 · <span lang="en">Final: question</span><span lang="es">Final: pregunta</span></figcaption></figure>
+      <figure><img src="assets/img/singer/quiz-resultado-sm.webp" width="375" height="812" loading="lazy" decoding="async" class="shot" alt="Final result screen with recommendation and prices." data-es-alt="Pantalla final de resultado con recomendación y precios."><figcaption>03 · <span lang="en">Final: result</span><span lang="es">Final: resultado</span></figcaption></figure>
+    </div>
+  </div>
+  <div class="ph" style="margin-top:40px">
+    <span class="mono">[<span lang="en">ADD: carousel and infographic iterations</span><span lang="es">AGREGAR: iteraciones de carruseles e infografía</span>]</span>
+    <p><span lang="en">Sketches, Canva drafts or earlier versions of the carousels and infographic. Two or three "before" images next to the finals above would show the art-direction process.</span><span lang="es">Bocetos, borradores en Canva o versiones anteriores de los carruseles y la infografía. Dos o tres imágenes del "antes" junto a las finales mostrarían el proceso de dirección de arte.</span></p>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="legal">
+      <hr class="stitch">
+      <p lang="en">La Tienda Singer is an authorized Singer dealer. Work shown with permission; Singer is a trademark of its respective owner.</p>
+      <p lang="es">La Tienda Singer es un distribuidor autorizado Singer. Trabajo mostrado con permiso; Singer es una marca registrada de su respectivo titular.</p>
+      <p lang="en">The La Tienda Singer case is an academic project for the course <i>Diseño y Producción de Estrategias y Contenidos Digitales</i> (Prof. William Castillo). Anything not produced is marked as proposed.</p>
+      <p lang="es">El caso La Tienda Singer es un proyecto académico de la materia <i>Diseño y Producción de Estrategias y Contenidos Digitales</i> (prof. William Castillo). Todo lo que no se produjo está marcado como propuesto.</p>
+      <p>© 2026 María Alejandra Quiroga</p>
+    </div>
+    <nav aria-label="Footer" data-es-aria-label="Pie de página">
+      <ul>
+        <li><a href="case-singer.html"><span lang="en">Case study</span><span lang="es">Caso</span></a></li>
+        <li><a href="design-system.html"><span lang="en">Design system</span><span lang="es">Sistema visual</span></a></li>
+        <li><a href="how-i-work.html"><span lang="en">How I work</span><span lang="es">Cómo trabajo</span></a></li>
+        <li><a href="about.html"><span lang="en">About</span><span lang="es">Sobre mí</span></a></li>
+      </ul>
+    </nav>
+  </div>
+</footer>
+<script src="assets/js/site.js" defer></script>
+</body>
+</html>
