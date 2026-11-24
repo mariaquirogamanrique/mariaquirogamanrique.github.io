@@ -1,0 +1,67 @@
+<!doctype html>
+<!-- CASE STUDY TEMPLATE
+     1. Copy this file to the site root as case-<brand>.html (e.g. case-acme.html).
+     2. Put images in assets/img/<brand>/ (WebP, ≤ 1400 px wide, plus a -sm version at half width).
+     3. Replace every [BRACKET]. Keep text in EN/ES pairs: <span lang="en">…</span><span lang="es">…</span>
+     4. Mark anything not produced with  <span class="chip chip--plan">…</span>  and produced work with  chip--made.
+     5. Add a card for it in index.html (copy the <a class="work-card"> block). -->
+<html lang="en" data-lang="en" data-en-title="[BRAND] · Case study · María Alejandra Quiroga" data-es-title="[BRAND] · Caso · María Alejandra Quiroga">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>[BRAND] · Case study · María Alejandra Quiroga</title>
+<meta name="description" content="[ONE-SENTENCE SUMMARY]">
+<meta name="theme-color" content="#F6F4EF">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<script>try{var l=new URLSearchParams(location.search).get('lang')||localStorage.getItem('lang');if(l==='es')document.documentElement.setAttribute('data-lang','es')}catch(e){}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT@0,9..144,300..600,0..100;1,9..144,300..600,0..100&family=IBM+Plex+Mono:wght@400;500&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+<div class="thread" aria-hidden="true"></div>
+<a class="skip" href="#main"><span lang="en">Skip to content</span><span lang="es">Saltar al contenido</span></a>
+
+<!-- HEADER: copy from case-singer.html (aria-current goes on no link, or on "Case study") -->
+
+<main id="main">
+<section class="case-hero wrap">
+  <span class="label"><span lang="en">Case study · [SECTOR] · [CITY]</span><span lang="es">Caso · [SECTOR] · [CIUDAD]</span></span>
+  <h1 class="display"><span lang="en">[HEADLINE with one <em>italic</em> phrase]</span><span lang="es">[TITULAR con una frase en <em>itálica</em>]</span></h1>
+  <p class="lede"><span lang="en">[What the brand is and the big idea, 2 sentences]</span><span lang="es">[Qué es la marca y la gran idea, 2 frases]</span></p>
+  <dl class="facts">
+    <div><dt><span lang="en">Client</span><span lang="es">Cliente</span></dt><dd>[BRAND]</dd></div>
+    <div><dt><span lang="en">Type</span><span lang="es">Tipo</span></dt><dd>[TYPE]</dd></div>
+    <div><dt><span lang="en">Context</span><span lang="es">Contexto</span></dt><dd>[YEAR · CLIENT / ACADEMIC]</dd></div>
+    <div><dt><span lang="en">Timeline</span><span lang="es">Duración</span></dt><dd>[DURATION]</dd></div>
+  </dl>
+</section>
+
+<!-- One block per section. Duplicate as needed. Useful components from site.css:
+     .tension (problem vs opportunity) · .personas + .piece (persona cards) · .flow (numbered steps)
+     .funnel / .hhh / .pillars (frameworks) · .eco (channel diagram) · .gallery-group + .strip (galleries)
+     .timeline + .phase · .money · .rhythm · .kit · .market · .kpis + .kpi · .reflect · .ph (placeholder) -->
+<section class="section wrap" id="challenge" aria-labelledby="challenge-t">
+  <div class="section__head">
+    <span class="label">01 · <span lang="en">The challenge</span><span lang="es">El reto</span></span>
+    <h2 class="h2" id="challenge-t"><span lang="en">[SECTION TITLE]</span><span lang="es">[TÍTULO]</span></h2>
+  </div>
+  <div class="prose"><p><span lang="en">[TEXT]</span><span lang="es">[TEXTO]</span></p></div>
+</section>
+
+<section class="section wrap" id="kpis" aria-labelledby="kpi-t">
+  <div class="section__head">
+    <span class="label">0X · KPI</span>
+    <h2 class="h2" id="kpi-t"><span lang="en">Results</span><span lang="es">Resultados</span></h2>
+  </div>
+  <div class="kpis">
+    <div class="kpi"><span class="big">[TARGET]</span><b><span lang="en">[METRIC]</span><span lang="es">[MÉTRICA]</span></b>
+      <dl><dt><span lang="en">Target</span><span lang="es">Meta</span></dt><dd>[TARGET]</dd><dt><span lang="en">Actual</span><span lang="es">Real</span></dt><dd>[ACTUAL or —]</dd></dl></div>
+  </div>
+</section>
+</main>
+
+<!-- FOOTER: copy from case-singer.html and add a credit/permission line for this brand -->
+<script src="assets/js/site.js" defer></script>
+</body>
+</html>
