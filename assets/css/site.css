@@ -573,3 +573,6 @@ figcaption { margin-top: 12px; font-family: var(--f-mono); font-size: .75rem; le
 @media (max-width: 899px) { .nav ul { gap: 14px; } .nav a { font-size: .84rem; } }
 @media (min-width: 1000px) { .eco__col--channels .eco__list { border-right: 1.5px dashed var(--line-2); padding-right: 14px; } }
 .contact li > * { min-width: 0; overflow-wrap: anywhere; }
+.portrait--photo { display: block; width: 100%; height: auto; object-fit: cover; border-radius: 2px; }
+.bio p + p { margin-top: 1em; }
+@media (max-width: 559px) { .contact li { grid-template-columns: 1fr; gap: 4px; } }

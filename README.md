@@ -10,12 +10,11 @@ index.html            Home: hero, selected work, what the portfolio shows
 case-singer.html      Flagship case study: La Tienda Singer
 design-system.html    The Singer visual system (palette, type, grid, components, templates, process)
 how-i-work.html       PM process: brief → research → concept → production → launch → measure
-about.html            About + contact + CV download
+about.html            About + contact
 _templates/           Starting point for new case studies (not linked from the site)
 assets/css/site.css   All styles (tokens at the top)
 assets/js/site.js     Language toggle, reading "thread", keyboard scrolling for galleries
 assets/img/<brand>/   Images per case study (WebP; full size + "-sm" half size)
-assets/files/         Downloads (CV)
 ```
 
 ## Run it locally
